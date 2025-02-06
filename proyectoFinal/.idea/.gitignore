@@ -1,0 +1,35 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Build artifacts
+target/
+out/
+project/target/
+project/project/
+
+# BSP
+.bsp/
+
+# Logs
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.swp
+*.bak
+
+# Dependencias descargadas por SBT
+.ivy2/
+.sbt/
+.coursier/
+
+# Datos generados
+data/
+
+# Contrasena SQL
+src/main/resources/application.conf
